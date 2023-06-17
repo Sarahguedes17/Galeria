@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(124, 62, 216);
+}
+
+h1{
+    color: rgb(48, 92, 214);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.galeria-de-fotos{
+    column-count: 4;
+    column-gap: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+    margin: 2px;
+    opacity: .6;
+}
+
+img:hover{
+    overflow: 2px rgb(6, 249, 35);
+    opacity: 1;
+    
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    color: brown;
+    margin: 40px 0;
+    padding: 30px;
+
+}
